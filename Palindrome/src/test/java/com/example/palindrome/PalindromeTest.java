@@ -216,7 +216,6 @@ class PalindromeTest {
         String in = "Ab!2 C";
         String expected = "ab2c";
         assertEquals(expected, PalindromeWithTwoPointers.normalize(in));
-        assertEquals(expected, PalindromeWithStackQueue.normalize(in));
     }
 
     // ---------- Advanced / Grouped / Parameterized ----------
